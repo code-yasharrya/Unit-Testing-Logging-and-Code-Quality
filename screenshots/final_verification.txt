@@ -1,0 +1,25 @@
+===== PYTEST RESULTS =====
+============================= test session starts ==============================
+platform darwin -- Python 3.14.6, pytest-9.2.0, pluggy-1.7.0 -- /Users/yashaarya/Downloads/Assignment9_Unit_Testing/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/yashaarya/Downloads/Assignment9_Unit_Testing
+collecting ... collected 10 items
+
+test_order.py::test_discount_valid PASSED                                [ 10%]
+test_order.py::test_discount_zero PASSED                                 [ 20%]
+test_order.py::test_discount_full PASSED                                 [ 30%]
+test_order.py::test_negative_price PASSED                                [ 40%]
+test_order.py::test_invalid_discount PASSED                              [ 50%]
+test_order.py::test_negative_discount PASSED                             [ 60%]
+test_order.py::test_gst_calculation PASSED                               [ 70%]
+test_order.py::test_negative_gst_amount PASSED                           [ 80%]
+test_order.py::test_order_total PASSED                                   [ 90%]
+test_order.py::test_order_total_no_discount PASSED                       [100%]
+
+============================== 10 passed in 0.01s ==============================
+
+===== RUFF CHECK =====
+All checks passed!
+
+===== RUFF FORMAT CHECK =====
+1 file already formatted

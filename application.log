@@ -1,0 +1,7 @@
+2026-11-18 15:06:53,591 - DEBUG - Starting order calculation: price=1000, discount=10
+2026-11-18 15:06:53,591 - INFO - Order processed successfully: total=1062.0
+2026-11-18 15:06:53,591 - DEBUG - Starting order calculation: price=500, discount=0
+2026-11-18 15:06:53,591 - INFO - Order processed successfully: total=590.0
+2026-11-18 15:06:53,592 - WARNING - No discount applied to this order
+2026-11-18 15:06:53,592 - DEBUG - Starting order calculation: price=-100, discount=10
+2026-11-18 15:06:53,592 - ERROR - Order processing failed: Price cannot be negative
